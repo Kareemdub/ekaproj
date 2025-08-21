@@ -70,7 +70,7 @@ nelinumeroinen_koodi = [random.randint(1, 6) for o in range(4)]
 print(f"Nelinumeroinen koodinne: {nelinumeroinen_koodi}")
 
 
-# tein tämän näköisen aluksi, mutta en siitä, joten menin etsimään netistä ratkaisua
+# tein tämän näköisen aluksi, mutta en pitänyt siitä, joten menin etsimään netistä ratkaisua
 """import random
 
 numero1 = random.randint(0, 9)
