@@ -52,9 +52,9 @@ else:
     print("sukupuolta ei löydy")
 
 #tehtävä 4
-
+#pitää miettiä lisää
 vuosiluku = float(input("Anna vuosiluku: "))
-if vuosiluku :
+if int(vuosiluku / 4) :
     print("vuosiluku on karkausvuosi")
 else:
     print("vuosiluku ei ole karkausvuosi")
