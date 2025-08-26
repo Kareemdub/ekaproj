@@ -63,7 +63,7 @@ print(f"Massa nykymittojen mukaan: \n"
 #haetaan random
 import random
 #tehdään randomisti generoitu lista kolmelle ja neljälle numerolle.
-kolminumeroinen_koodi = [random.randint(0, 9) for l in range(3)]
+kolminumeroinen_koodi = [random.    randint(0, 9) for l in range(3)]
 print(f"Kolminumeroinen koodinne: {kolminumeroinen_koodi}")
 
 nelinumeroinen_koodi = [random.randint(1, 6) for o in range(4)]
