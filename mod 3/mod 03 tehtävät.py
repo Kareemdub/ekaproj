@@ -1,6 +1,6 @@
 #mod 3 tehtävät
 #tehtävä 1
-#from statistics import median
+from time import process_time_ns
 
 kuha = float(input("Anna kuhan pituus senttimetreinä: "))
 
@@ -52,9 +52,12 @@ else:
     print("sukupuolta ei löydy")
 
 #tehtävä 4
-#saatiin kasperin kanssa tälläinen ratkaisu, joka näyttäisi toimivan.
+#karkausvuositehtävä yritys
 vuosiluku = float(input("Anna vuosiluku: "))
-if vuosiluku % 4 == 0:
-    print("vuosiluku on karkausvuosi")
+if  vuosiluku % 4 == 0:
+    if vuosiluku > 99 and vuosiluku % 400 == 0 and vuosiluku % 100 == 0:
+        print("vuosiluku on karkausvuosi")
+    else:
+        print("vuosiluku on karkausvuosi")
 else:
     print("vuosiluku ei ole karkausvuosi")
