@@ -29,7 +29,6 @@ oikea_tunnus = "kala"
 
 input_salasana = input("Anna salasana:")
 input_tunnus = input("Anna tunnus")
-
 if input_salasana == oikea_salasana and input_tunnus == oikea_tunnus:
     print("Kirjautuminen onnistui")
     kehote = input("Mitä haluat tehdä? ")
