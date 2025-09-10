@@ -150,3 +150,17 @@ yhteystiedot = {"Aapeli": {"puh" : "0123", "osoite": "lintutie 5"},
 }
 
 print(f"Aapelin puhelinnumero:  {yhteystiedot["Aapeli"]["puh"]}")
+
+oppilaat2 = {"Aapeli": 25,
+            "Petteri" : 21,
+            "Joonas" : 23,
+            "Emma" : 30
+            }
+#lisätään uusi oppilas
+#lisätään avaimen avulla, mikäli avain jo löytyy tämä päivittää tiedot
+
+oppilaat2["Ulla"] = 22
+oppilaat2["Aapeli"] = 69
+
+print (oppilaat2)
+
